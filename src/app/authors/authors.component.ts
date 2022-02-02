@@ -8,8 +8,9 @@ import { AuthorsService } from '../authors.service';
 })
 export class AuthorsComponent implements OnInit {
 
-  title = "List of authors";
-  imageURL = "https://www.thespruce.com/plants-with-big-flowers-4138211";
+  title : string = "List of authors";
+
+  imageURL ='../assets/phone.png';
   course: any;
   authors: any;
 
